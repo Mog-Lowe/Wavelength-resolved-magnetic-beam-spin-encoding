@@ -7,7 +7,12 @@ Hi there,
 
 To use the main analysis script ("read_experimental_data.mlx") to analyse the raw experimental data in the study presented, please follow the below instructions;
 
-Download all items inside of this repository. The pre-requisite .m files saved within the folder titled "prereq_echo_reader", the raw datafiles stored within the folder "echo run 2", and a calibration .txt file titled "phase correction shifts (echo run 2)" and place all items in the same directory as the analysis script "read_experimental_data.mlx"
+Download all items inside of this repository and ensure all items are placed into the same directory path. A list of each item is given here;
 
-on line 15 of "read_experimental_data.mlx", please amend the variable 'pathway' to reflect the directory you've installed the script onto.
+    "read_experimental_data.mlx" - The main analysis code.
+    (FOLDER) "experimental data" - Contains 200 .dat files containing the raw experimental data.
+    (FOLDER) prereq_echo_reader - Contains a few scripts which are necessary to running 'read_experimental_data.mlx'.
+    "phase correction shifts.txt" - Some additional information required to re-phase the experimental data.
+
+On line 15 of "read_experimental_data.mlx" please amend the variable 'pathway' to reflect the directory you've installed all of the above items into.
 
