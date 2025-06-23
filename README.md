@@ -10,7 +10,7 @@ To use the main analysis script ("read_experimental_data.mlx") to analyse the ra
 Download all items inside of this repository and ensure all items are placed into the same directory path. A list of each item is given here;
 
     "read_experimental_data.mlx" - The main analysis code.
-    (FOLDER) "experimental data" - Contains 200 .dat files containing the raw experimental data.
+    (FOLDER) "raw datafiles" - Contains 200 .dat files which contain all of the raw experimental data.
     (FOLDER) prereq_echo_reader - Contains a few scripts which are necessary to running 'read_experimental_data.mlx'.
     "phase correction shifts.txt" - Some additional information required to re-phase the experimental data.
 
